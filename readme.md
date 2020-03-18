@@ -1,4 +1,4 @@
-# Black jack
+# Solution for problem Blackjack in Sutton's Reinforcement Learning books
 
 
 
@@ -6,7 +6,7 @@
 
 - python 3
 
-### Package required：
+### Package required
 
 - numpy
 
