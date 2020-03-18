@@ -2,17 +2,18 @@
 
 
 
-——Language
+### Language
 
 ​	python 3
 
-——package required：
+### Package required：
 
 ​	numpy
 
 ​	random
 
-——Action： a =0 or 1
+### Setting details
+#### Action： a =0 or 1
 
 ​		 a=0  stick 
 
@@ -20,7 +21,7 @@
 
 ​		// automatically twist if sum of cards < 12
 
-——State：  s = [my_sum, ace_own, s_card]   //[13,0,8]
+#### State：  s = [my_sum, ace_own, s_card]   //[13,0,8]
 
 ​		|——my_sum  ：the current sum of my cards.  
 
@@ -28,6 +29,6 @@
 
 ​		|——s_card     ：host showing card
 
-——POLICY： pai[1] = [0.4, 0.6]                 //  under State[1], prob for stick is 0.4, prob for twist is 0.6
+#### POLICY： pai[1] = [0.4, 0.6]                 //  under State[1], prob for stick is 0.4, prob for twist is 0.6
 
-——Value function：  Q [2] [0]  =23          //  q of (State[1], stick) is 23 
+#### Value function：  Q [2] [0]  =23          //  q of (State[1], stick) is 23 
