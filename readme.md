@@ -2,17 +2,17 @@
 
 
 
-### Language
+## Language
 
 - python 3
 
-### Package required
+## Package required
 
 - numpy
 
 - random
 
-### Setting details
+## Setting details
 - Action： a =0 or 1
   + a=0  stick 
   + a=1  twist // automatically twist if sum of cards < 12
